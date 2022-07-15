@@ -81,7 +81,7 @@ const Main = props => {
     } 
   }, [queryId]);
 
-  const url = `https://easy-translate-api.herokuapp.com/translate`;
+  const url = 'https://easy-translate-api.herokuapp.com/translate';
 
   async function apiCall() { 
     try {
