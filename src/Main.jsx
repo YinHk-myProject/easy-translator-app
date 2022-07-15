@@ -125,9 +125,6 @@ const Main = props => {
   }
 
   const handleClick = () => {
-    console.log('query' + ' ' + stateObj.query);
-    console.log('source' + ' ' + stateObj.source);
-    console.log('target' + ' ' + stateObj.target);
     if(stateObj.query!=null && stateObj.source!=null && stateObj.target!=null) apiCall();
   };
 
